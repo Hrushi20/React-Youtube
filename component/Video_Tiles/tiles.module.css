@@ -1,0 +1,26 @@
+.Tile{
+    flex-grow:1;
+   flex-shrink:1;
+   flex-basis: 15rem;
+    margin: 0.82rem;
+    position: relative;
+}
+.Desc{
+    font-size: 1.34rem;
+    
+}
+.TileImage{
+    height: 100%;
+}
+.Tile:hover{
+    transition: transform 0.3s ease-in;
+    transform:scale(1.04);
+}
+.ButtonContainer{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width: 100%;
+    position: absolute;
+    bottom:5px;
+}

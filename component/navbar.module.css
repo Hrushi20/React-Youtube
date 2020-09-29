@@ -1,0 +1,49 @@
+.Navbar{
+    width: 100%;
+    height: 50px;
+    background:#f5f4f2;
+    border-radius: 1px solid #ccc;
+    box-shadow: 3px 3px 10px #ccc;
+    margin:0px;
+    position: fixed;
+    z-index: 10;
+}
+.Navbar ul{
+    height: 100%;
+    align-items: center;
+    margin:0px;
+    display: flex; 
+}
+.SearchBarContainer{
+    width: 50%;
+    min-width: 13.4rem;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: -20px;
+}
+.SearchBar{
+    width: 88%;
+}
+.MagnifyingGlass{
+    cursor:pointer;
+    font-size: 3rem;
+    margin-left: 1.3rem;
+}
+.Auth {
+    width: 150px;
+    margin-left: auto;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.MenuIcon{
+   margin-right: 15px;
+   cursor: pointer;
+}
+.Auth button{
+    font-size: 1rem;
+}
